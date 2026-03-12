@@ -72,10 +72,18 @@ const Navbar = () => {
         {/* Mobile Dropdown */}
         {menuOpen && (
           <div className="md:hidden pb-4 space-y-3 text-black dark:text-white font-medium">
-            <p className="cursor-pointer">Home</p>
-            <p className="cursor-pointer">Course</p>
-            <p className="cursor-pointer">Contact</p>
-            <p className="cursor-pointer">About</p>
+           <ul className="  space-x-8 text-black dark:text-white font-medium absolute left-1/2 transform -translate-x-1/2">
+            <li className="hover:text-blue-500 cursor-pointer">
+              <Link to="/">Home</Link>
+            </li>
+            <li className="hover:text-blue-500 cursor-pointer">
+              <Link to="/course">Course</Link>
+            </li>
+            <li className="hover:text-blue-500 cursor-pointer">
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li className="hover:text-blue-500 cursor-pointer">About</li>
+          </ul>
           </div>
         )}
       </div>
