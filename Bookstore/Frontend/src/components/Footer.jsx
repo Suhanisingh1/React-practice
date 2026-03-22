@@ -17,7 +17,7 @@ const Footer = () => {
         <h3><FaTwitter/></h3>
     </div>
     <div className='sm:flex space-x-8 font-medium absolute left-1/2 transform -translate-x-1/2  mt-28 mb-28'>
-        <p> Copyright @ 2026 - All rights</p>
+        <p> Copyright @ 2026 - All rights deserved</p>
     </div>
 
     </>

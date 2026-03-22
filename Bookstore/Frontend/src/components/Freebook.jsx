@@ -51,7 +51,7 @@ const Freebook = () => {
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum saepe
             atque mollitia id maiores aut amet nihil architecto neque
-            aspernatur.
+            aspernatur. Lorem ipsum dolor sit amet.
           </p>
         </div>
       
